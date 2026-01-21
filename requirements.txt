@@ -1,0 +1,52 @@
+# FastAPI Backend Template - All Dependencies
+# Install with: pip install -r requirements.txt
+
+# ============================================
+# Core FastAPI Dependencies
+# ============================================
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+starlette==0.35.1
+
+# Async Database
+SQLAlchemy[asyncio]==2.0.36
+asyncpg==0.29.0              # Async PostgreSQL driver
+aiosqlite==0.19.0            # Async SQLite driver (development)
+alembic==1.13.1              # Database migrations
+
+# Validation and Configuration
+pydantic==2.10.5
+pydantic-settings==2.7.0
+
+# Environment Configuration
+python-dotenv==1.0.0
+
+# Security
+PyJWT==2.10.1
+argon2-cffi==23.1.0
+cryptography==44.0.0
+
+# ============================================
+# Development & Testing
+# ============================================
+pytest==8.3.4
+pytest-asyncio==0.23.0
+pytest-cov==6.0.0
+httpx==0.26.0                # Async HTTP client for testing
+factory-boy==3.3.0
+
+# Code Quality & Formatting
+ruff==0.8.4                  # Fast linter and formatter
+mypy==1.13.0                 # Type checking
+
+# Validation
+email-validator==2.2.0
+
+# CLI
+typer==0.9.0
+rich==13.7.0                 # Pretty console output for Typer
+
+# ============================================
+# Production
+# ============================================
+# uvicorn is the ASGI server (included above with [standard] extras)
