@@ -1,0 +1,46 @@
+{
+  "recommendations": [
+    // Python core
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+
+    // Linting & formatting
+    "charliermarsh.ruff",
+
+    // Testing
+    "ms-python.debugpy",
+
+    // Database & SQL
+    "mtxr.sqltools",
+    "mtxr.sqltools-driver-pg",
+    "mtxr.sqltools-driver-sqlite",
+
+    // Environment & config files
+    "mikestead.dotenv",
+
+    // Markdown & documentation
+    "yzhang.markdown-all-in-one",
+
+    // Docker
+    "ms-azuretools.vscode-docker",
+
+    // Git
+    "eamodio.gitlens",
+
+    // REST API testing
+    "humao.rest-client",
+
+    // TOML support (pyproject.toml)
+    "tamasfe.even-better-toml",
+
+    // JSON/YAML
+    "redhat.vscode-yaml"
+  ],
+  "unwantedRecommendations": [
+    // Ruff replaces these
+    "ms-python.black-formatter",
+    "ms-python.isort",
+    "ms-python.flake8",
+    "ms-python.pylint"
+  ]
+}

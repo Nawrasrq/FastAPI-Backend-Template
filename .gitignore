@@ -22,6 +22,7 @@ wheels/
 MANIFEST
 
 # Virtual Environment
+.venv/
 venv/
 env/
 ENV/
@@ -43,7 +44,6 @@ logs/
 *.log
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
